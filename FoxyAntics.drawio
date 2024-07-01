@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T16:58:49.370Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="JS_9351nSBL2D_BT6t60" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T16:59:33.722Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="hJB7jkxBWMa9bcfW5Kse" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2967" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4654" dy="3929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,7 +15,7 @@
             <mxGeometry x="-480" y="-1275" width="255" height="75" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-4" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-3">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-4" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-3">
           <mxGeometry y="75" width="255" height="10" as="geometry" />
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-5" value="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;Scene: &lt;/span&gt;&lt;span style=&quot;font-size:16.8px;color:#ffffff;font-weight: bold;&quot;&gt;PlayerCam&lt;/span&gt;: &#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;&lt;span style=&quot;font-size:16.8px;color:#e81313;&quot;&gt;Camera2D&lt;/span&gt;: &lt;/span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;&#xa;   &lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="align=center;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#635dff;strokeWidth=1.5;" vertex="1" parent="1">
@@ -264,7 +264,7 @@
             <mxGeometry x="-970" y="-1045" width="232" height="58" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-70" value="Fallen off enemy" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-69">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-70" value="Fallen off enemy" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-69">
           <mxGeometry y="58.00000000000001" width="232" height="6.444444444444445" as="geometry" />
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF1605;dashed=1;dashPattern=8 8;endArrow=oval;endFill=1;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-104" target="CjNx1Wot1mACuI0lEV2n-152">
@@ -345,7 +345,7 @@
             <mxGeometry x="-1290" y="-979" width="255" height="75" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-143" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-142">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-143" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-142">
           <mxGeometry y="75" width="255" height="10" as="geometry" />
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.003;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFE342;strokeWidth=3;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-69" target="CjNx1Wot1mACuI0lEV2n-67">
@@ -370,7 +370,7 @@
             <mxGeometry x="-970" y="-928" width="232" height="58" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-152" value="Die" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-151">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-152" value="Die" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-151">
           <mxGeometry y="58.00000000000001" width="232" height="6.444444444444445" as="geometry" />
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;shape=link;strokeColor=#FFE342;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-151" target="CjNx1Wot1mACuI0lEV2n-67">
