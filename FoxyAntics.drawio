@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T13:15:15.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="B0aLDy8VtloODOyDH8a3" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T13:19:37.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9PpOW_Ymn9cUeMoRLYpT" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2889" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2704" dy="2895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -256,12 +256,12 @@
             <mxGeometry x="-765" y="-825" width="285" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;func _physics_process(delta):&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:11.8px;color:#504bde;&quot;&gt;calculate_states()&#xa;get_input ()&#xa;update_debug_lable()&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" id="CjNx1Wot1mACuI0lEV2n-69">
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;func _physics_process(delta):&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:11.8px;color:#504bde;&quot;&gt;calculate_states()&#xa;get_input ()&#xa;update_debug_lable()&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" tooltip="Responsible to delete enemy that is fallen the grid, it keeps track if the velocity is greater then 1000 (fall for long time)&#xa;" id="CjNx1Wot1mACuI0lEV2n-69">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=I0hQ4H9UoogR;" vertex="1" parent="1">
             <mxGeometry x="-1095" y="-1110" width="225" height="90" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-70" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-69">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-70" value="Fallen of enemy" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-69">
           <mxGeometry y="90" width="225" height="10" as="geometry" />
         </mxCell>
         <UserObject label="on_enemy_hit(points:int, enemy_position:Vector2)" Notes="when emit, sending hitpoints and position of enemy" id="CjNx1Wot1mACuI0lEV2n-104">
