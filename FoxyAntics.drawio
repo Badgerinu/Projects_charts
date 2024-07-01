@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T13:01:37.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="dRso28SIXTMpndBzZ_J1" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T13:03:34.858Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="biZHioRvn3wthY32cDGR" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2967" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3563" dy="3351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,7 @@
         </mxCell>
         <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;func _physics_process(delta):&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:11.8px;color:#504bde;&quot;&gt;calculate_states()&#xa;get_input ()&#xa;update_debug_lable()&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" id="CjNx1Wot1mACuI0lEV2n-16">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=DG8O~GKL7nWF;" vertex="1" parent="1">
-            <mxGeometry x="1450" y="-880" width="225" height="90" as="geometry" />
+            <mxGeometry x="840" y="-1044" width="225" height="90" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-17" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=center;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-16">
@@ -99,6 +99,9 @@
               <mxPoint x="483" y="-810" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FFE342;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-25" target="CjNx1Wot1mACuI0lEV2n-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;func set_state(new_state:PLAYER_STATE)-&amp;gt;void:&#xa;&lt;/span&gt;&lt;span style=&quot;font-size:8.5px;color:#ff80df;font-weight: bold;&quot;&gt;SoundManger.play_clip(sounds_player,SoundManger.SOUND_LAND)&lt;/span&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;&#xa;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Notes="take the _state var and play the wanted animation according&#xa;to the enum we envoke, the argument passed here is new_state which is the argument of the state we want to change _state to&#xa;check if falling then change to idle or walk for land sound" id="CjNx1Wot1mACuI0lEV2n-25">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=uY1PPZYHQ8YV;" vertex="1" parent="1">
@@ -143,7 +146,7 @@
         <mxCell id="CjNx1Wot1mACuI0lEV2n-46" value="Sound play" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-45">
           <mxGeometry y="120" width="240" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-47" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ff80df;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=-0.003;exitY=0.152;exitPerimeter=0;entryX=1.003;entryY=0.06;entryPerimeter=0;lucidId=xMeQmpPPNFXi;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-45" target="CjNx1Wot1mACuI0lEV2n-44">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-47" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ff80df;strokeOpacity=100;strokeWidth=3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=-0.003;exitY=0.152;exitPerimeter=0;entryX=1.003;entryY=0.06;entryPerimeter=0;lucidId=xMeQmpPPNFXi;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-45" target="CjNx1Wot1mACuI0lEV2n-44">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -287,6 +290,13 @@
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-126" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.944;entryY=0.037;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeColor=#FFE342;strokeWidth=3;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-29" target="CjNx1Wot1mACuI0lEV2n-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FFE342;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-17" target="CjNx1Wot1mACuI0lEV2n-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="840" y="-844" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
