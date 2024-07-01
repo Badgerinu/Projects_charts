@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T14:00:56.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kemdxlnb0zQ1UDdygqBb" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T14:02:47.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Jf6QpFO7fSNpULJin8wf" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="3563" dy="3351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3987" dy="3576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -266,6 +266,15 @@
         </UserObject>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-70" value="Fallen off enemy" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-69">
           <mxGeometry y="58.00000000000001" width="232" height="6.444444444444445" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;strokeColor=#FF1605;dashed=1;dashPattern=8 8;endArrow=oval;endFill=1;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-104" target="CjNx1Wot1mACuI0lEV2n-152">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1350" y="-1655" />
+              <mxPoint x="-1350" y="-844" />
+              <mxPoint x="-970" y="-844" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <UserObject label="on_enemy_hit(points:int, enemy_position:Vector2)" Notes="when emit, sending hitpoints and position of enemy" tooltip="when enemy is being hit it will emit the points you recieve and its location for the explosion animation" id="CjNx1Wot1mACuI0lEV2n-104">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13.5;fontColor=default;align=center;spacing=3.8;verticalAlign=middle;strokeColor=#unset;fillColor=#FFF7FE;gradientColor=#FF2119;strokeWidth=NaN;lucidId=VuhQ~hiLM-Lj;shadow=0;dashed=0;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="1">
