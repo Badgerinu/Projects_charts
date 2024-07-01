@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T13:37:53.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jMkZgDS1eejb_EQAgISG" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T14:00:56.396Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kemdxlnb0zQ1UDdygqBb" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2967" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3563" dy="3351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,26 +329,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFE342;strokeWidth=3;shape=link;entryX=-0.005;entryY=0.306;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-985" y="-959.9973684210524" as="sourcePoint" />
-            <mxPoint x="-696.425" y="-957.702" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-990" y="-960" />
-              <mxPoint x="-990" y="-959" />
-              <mxPoint x="-696" y="-959" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <UserObject label="func _physics_process(delta):&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;&#x9;fallen_off()&lt;/font&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." tooltip="call every frame, checking if the enemy is off the grid" id="CjNx1Wot1mACuI0lEV2n-142">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
-            <mxGeometry x="-1240" y="-976" width="255" height="75" as="geometry" />
+            <mxGeometry x="-1290" y="-979" width="255" height="75" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-143" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-142">
           <mxGeometry y="75" width="255" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=-0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFE342;strokeWidth=3;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-69" target="CjNx1Wot1mACuI0lEV2n-67">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.003;entryY=0.06;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFE342;strokeWidth=3;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-69" target="CjNx1Wot1mACuI0lEV2n-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=2;endArrow=block;endFill=0;entryX=0.874;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-69" target="CjNx1Wot1mACuI0lEV2n-142">
@@ -357,15 +346,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;endArrow=cross;endFill=0;strokeWidth=2;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-151" target="CjNx1Wot1mACuI0lEV2n-142">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-970" y="-920" />
+              <mxPoint x="-1002" y="-920" />
+              <mxPoint x="-1002" y="-923" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;func die()-&amp;gt;void:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" tooltip="first checking if enemy is dead, it its true return and function doesnt do anything. if player is alive and this function is called it will emit the signal for point and position,and disable physics process, hide the enemy and then remove it from the game" id="CjNx1Wot1mACuI0lEV2n-151">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=I0hQ4H9UoogR;" vertex="1" parent="1">
-            <mxGeometry x="-990" y="-838" width="232" height="58" as="geometry" />
+            <mxGeometry x="-970" y="-928" width="232" height="58" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-152" value="Die" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-151">
           <mxGeometry y="58.00000000000001" width="232" height="6.444444444444445" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;shape=link;strokeColor=#FFE342;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-151" target="CjNx1Wot1mACuI0lEV2n-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.006;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;shape=link;strokeWidth=3;strokeColor=#FFE342;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-142" target="CjNx1Wot1mACuI0lEV2n-67">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
