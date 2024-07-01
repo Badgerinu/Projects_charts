@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T12:37:46.876Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="BD2HKhh3JY5isqWoLEK0" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-01T12:41:22.127Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="R2oGpLMrZgBnqmNAFcYi" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2654" dy="2868" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3154" dy="3134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -62,7 +62,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-15" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ffe342;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;entryX=0.02;entryY=-0.007;entryPerimeter=0;lucidId=--7OhS-CCS-P;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-93" target="CjNx1Wot1mACuI0lEV2n-1">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-15" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ffe342;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;entryX=0.02;entryY=-0.007;entryPerimeter=0;lucidId=--7OhS-CCS-P;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-93" target="CjNx1Wot1mACuI0lEV2n-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="-224.23500000000013" y="-1218.6750000000002" as="sourcePoint" />
@@ -171,7 +171,7 @@
             <mxGeometry x="650" y="-1350" width="151" height="32" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-38" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ffe342;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=-0.004;exitY=0.59;exitPerimeter=0;entryX=1.003;entryY=0.02;entryPerimeter=0;lucidId=Wt2Pr2lACrV9;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-29" target="CjNx1Wot1mACuI0lEV2n-6">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-38" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ffe342;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=-0.004;exitY=0.59;exitPerimeter=0;entryX=1.003;entryY=0.02;entryPerimeter=0;lucidId=Wt2Pr2lACrV9;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-29" target="CjNx1Wot1mACuI0lEV2n-6">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="503" y="-1073" />
@@ -220,7 +220,7 @@
         <mxCell id="CjNx1Wot1mACuI0lEV2n-89" value="Sound Play" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=11;align=left;horizontal=1;verticalAlign=top;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-45">
           <mxGeometry x="16.80012703789964" width="235.201778530595" height="18.666666666666664" as="geometry" />
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-47" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ff80df;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=-0.003;exitY=0.152;exitPerimeter=0;entryX=1.003;entryY=0.06;entryPerimeter=0;lucidId=xMeQmpPPNFXi;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-45" target="CjNx1Wot1mACuI0lEV2n-44">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-47" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#ff80df;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=-0.003;exitY=0.152;exitPerimeter=0;entryX=1.003;entryY=0.06;entryPerimeter=0;lucidId=xMeQmpPPNFXi;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-45" target="CjNx1Wot1mACuI0lEV2n-44">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -301,7 +301,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-63" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#fc9432;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=0.986;exitY=1.008;exitPerimeter=0;entryX=0.141;entryY=-0.005;entryPerimeter=0;lucidId=h9gQ.4bacwuT;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-60" target="CjNx1Wot1mACuI0lEV2n-6">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-63" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#fc9432;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=0.986;exitY=1.008;exitPerimeter=0;entryX=0.141;entryY=-0.005;entryPerimeter=0;lucidId=h9gQ.4bacwuT;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-60" target="CjNx1Wot1mACuI0lEV2n-6">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-274" y="-1327" />
@@ -319,7 +319,7 @@
             <mxGeometry x="135" y="-1665" width="355" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-66" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#877190;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=1.003;exitY=0.165;exitPerimeter=0;entryX=-0.002;entryY=0.075;entryPerimeter=0;lucidId=nwhQOhDS8K4_;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-59" target="CjNx1Wot1mACuI0lEV2n-65">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-66" value="" style="html=1;jettySize=18;whiteSpace=wrap;fontSize=13;strokeColor=#877190;strokeOpacity=100;strokeWidth=2.3;rounded=1;arcSize=24;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=none;exitX=1.003;exitY=0.165;exitPerimeter=0;entryX=-0.002;entryY=0.075;entryPerimeter=0;lucidId=nwhQOhDS8K4_;shape=link;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-59" target="CjNx1Wot1mACuI0lEV2n-65">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
@@ -332,37 +332,40 @@
             <mxGeometry x="-765" y="-825" width="285" height="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:11.8px;&quot;&gt;&lt;span style=&quot;font-size:11.8px;color:#504bde;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" id="CjNx1Wot1mACuI0lEV2n-69">
-          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=I0hQ4H9UoogR;" vertex="1" parent="1">
-            <mxGeometry x="-1095" y="-1110" width="225" height="90" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-70" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=center;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-69">
-          <mxGeometry y="90" width="225" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-91" value="" style="shape=stencil(fZbdcgIhDIWfZm8zQAg/17Z9j85U606tdqz9e/tmZ0c0uJ47xP0I5JwEBl59bp8/1kNwn6fj4W39M76ctgM/DCGM++36OJ50NPDjwKvN4bh+PR6+9i/z74/n6ctp9H74nlb4nbmSKZeJCu5vngmZ6jzzNAO7cX8FVKEsBuBKrgKg9oAE8gkCbLeUhEoEQKSUDZDLeWYRKIl8MEDRmHwfyBrBG6Amyu4+kDxxMoB3jhwgYu7TVAsVkFcWCs4CTBEoF4RctKeOxHIf8IXYpikHikAIf+MNUW94AGSSaoAoFIE3AlOyeWU+p2E5S9yfQZcQILVuQOwZdJNoS9Ls3wA5u2XZTIHECqeJ9kDpSaauRiNVcAY1QhdBzeLBli5WazpkSsBLV25uRaqWRyFawTQzRRIQYirJzq5atkBqLfouwqUxLBepthWb10vrWZY6UOAeyKCCtDV625mm9gmUC4Wc3VLJMMIE1BsA2FW9JraVlQB7n3c9oMKhCLEvIM1zBPZ25/umNQ1tVEC2G+fFCC8g398O2hNQuQlVu752DBfA+q0ptnqO5JFmeuIuo9DY7KjY71UxdJV4EntifPWorW++R/dC4t7V3DlIB5cHx2bc7eb3yvX//QNFp+bHDT/+Aw==);lineShape=1;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="391.2882741128069" y="-1145.2583883637365" width="3.2224412221481105" height="3.217404287142613" as="geometry" />
         </mxCell>
         <UserObject label="" Notes="#function for playing each sound, the arguments are the player node to play the sound, and the keyword from dic&#xa;#if we have the keyword in the sounds dictonary we continue if not return&#xa; #load the sound file to the player we choose&#xa;#play the sound" id="CjNx1Wot1mACuI0lEV2n-92">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=MKeQQ6PfqjTb;aspect=fixed;verticalLabelPosition=bottom;shape=mxgraph.basic.plaque;dx=6;labelBorderColor=default;" vertex="1" parent="1">
-            <mxGeometry x="-470" y="-1275" width="245" height="103.74" as="geometry" />
+            <mxGeometry x="-470" y="-1275" width="200.74" height="85" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-93" value="player_cam.position = player.position&#xa;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-92">
-          <mxGeometry x="15.562025029301674" y="17.293087500000002" width="216.0157283829256" height="78.2773875" as="geometry" />
+          <mxGeometry x="12.750697568906197" y="14.16919642857143" width="176.9918257779122" height="64.13705357142858" as="geometry" />
         </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-94" value="func _physics_process(delta):" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=11;align=left;horizontal=1;verticalAlign=top;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-92">
-          <mxGeometry x="15.56214270590726" width="217.86999788270168" height="17.29" as="geometry" />
+          <mxGeometry x="12.750793986872749" width="178.5111158162185" height="14.166666666666666" as="geometry" />
         </mxCell>
         <UserObject label="" Notes="#function for playing each sound, the arguments are the player node to play the sound, and the keyword from dic&#xa;#if we have the keyword in the sounds dictonary we continue if not return&#xa; #load the sound file to the player we choose&#xa;#play the sound" id="CjNx1Wot1mACuI0lEV2n-95">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=MKeQQ6PfqjTb;aspect=fixed;verticalLabelPosition=bottom;shape=mxgraph.basic.plaque;dx=6;" vertex="1" parent="1">
-            <mxGeometry x="-1140" y="-1260" width="264.49" height="112" as="geometry" />
+            <mxGeometry x="-910" y="-1370" width="264.49" height="112" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-96" value="func _physics_process(delta):&#xa;calculate_states()&#xa;get_input ()&#xa;update_debug_lable()&#xa;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;fontColor=#40B3FF;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-95">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-96" value="calculate_states()&#xa;get_input ()&#xa;update_debug_lable()&#xa;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;fontColor=#40B3FF;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-95">
           <mxGeometry x="16.8" y="18.67" width="233.2" height="84.51" as="geometry" />
         </mxCell>
-        <mxCell id="CjNx1Wot1mACuI0lEV2n-97" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=11;align=left;horizontal=1;verticalAlign=top;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-95">
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-97" value="func _physics_process(delta):" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=11;align=left;horizontal=1;verticalAlign=top;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-95">
+          <mxGeometry x="16.80012703789964" width="235.201778530595" height="18.666666666666664" as="geometry" />
+        </mxCell>
+        <UserObject label="" Notes="#function for playing each sound, the arguments are the player node to play the sound, and the keyword from dic&#xa;#if we have the keyword in the sounds dictonary we continue if not return&#xa; #load the sound file to the player we choose&#xa;#play the sound" id="CjNx1Wot1mACuI0lEV2n-98">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=MKeQQ6PfqjTb;aspect=fixed;verticalLabelPosition=bottom;shape=mxgraph.basic.plaque;dx=6;" vertex="1" parent="1">
+            <mxGeometry x="-1091" y="-1030" width="264.49" height="112" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-99" value="calculate_states()&#xa;get_input ()&#xa;update_debug_lable()&#xa;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;fontColor=#40B3FF;" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-98">
+          <mxGeometry x="16.8" y="18.67" width="233.2" height="84.51" as="geometry" />
+        </mxCell>
+        <mxCell id="CjNx1Wot1mACuI0lEV2n-100" value="func _physics_process(delta):" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=11;align=left;horizontal=1;verticalAlign=top;fontStyle=1" vertex="1" parent="CjNx1Wot1mACuI0lEV2n-98">
           <mxGeometry x="16.80012703789964" width="235.201778530595" height="18.666666666666664" as="geometry" />
         </mxCell>
       </root>
