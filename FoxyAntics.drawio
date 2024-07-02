@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-02T19:54:52.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="2MivEyyVLsHLfnm2_4y1" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-02T20:03:11.698Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_4rXsDJPhlHNUezgyi-2" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2254" dy="2656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="2889" dy="2993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -563,7 +563,7 @@
             <mxGeometry x="-114" y="-722" width="200" height="35" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="func _physics_process(delta):&lt;br&gt;&lt;font color=&quot;#007fff&quot;&gt;move_and_slide()&lt;br&gt;flipme()&lt;br&gt;&lt;/font&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." tooltip="call every frame, checking if the enemy is off the grid" id="CjNx1Wot1mACuI0lEV2n-220">
+        <UserObject label="func _physics_process(delta):&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;super&lt;/font&gt;&lt;font color=&quot;#007fff&quot;&gt;._physics_process(delta)&lt;br&gt;move_and_slide()&lt;br&gt;flipme()&lt;br&gt;&lt;/font&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." tooltip="call every frame, checking if the enemy is off the grid" id="CjNx1Wot1mACuI0lEV2n-220">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
             <mxGeometry x="-115" y="-670" width="170" height="62" as="geometry" />
           </mxCell>
