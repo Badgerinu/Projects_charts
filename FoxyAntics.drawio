@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T17:12:04.142Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="GcwsRcCzjZMnSc2O6iSj" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-07T17:18:09.889Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3BwSRzoMc5fAjRUrf-Nt" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
     <mxGraphModel dx="2967" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
@@ -770,6 +770,15 @@
             <Array as="points">
               <mxPoint x="-386" y="-300" />
               <mxPoint x="-425" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.105;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;dashed=1;strokeColor=#635dff;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-67" target="CjNx1Wot1mACuI0lEV2n-242">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-330" y="-868" />
+              <mxPoint x="-330" y="-580" />
+              <mxPoint x="-310" y="-580" />
             </Array>
           </mxGeometry>
         </mxCell>
