@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T17:19:28.084Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="lh4eu8b8vOpFdq0U1JB1" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-07T17:55:24.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="GprvMZbfG22tWvBycXXv" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="3154" dy="3134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="3563" dy="3351" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -275,6 +275,19 @@
             <Array as="points">
               <mxPoint x="-360" y="-829" />
               <mxPoint x="-360" y="-639" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=3;strokeColor=#635dff;dashed=1;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-330" y="-869" />
+              <mxPoint x="-330" y="-610" />
+              <mxPoint x="-130" y="-610" />
+              <mxPoint x="-130" y="-530" />
+              <mxPoint x="-20" y="-530" />
+              <mxPoint x="-20" y="-380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -775,12 +788,17 @@
         <mxCell id="uzncJJ7L42PzghvQuCo0-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.105;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;dashed=1;strokeColor=#635dff;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-67" target="CjNx1Wot1mACuI0lEV2n-242">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-330" y="-868" />
-              <mxPoint x="-330" y="-580" />
+              <mxPoint x="-340" y="-869" />
+              <mxPoint x="-340" y="-580" />
               <mxPoint x="-310" y="-580" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:15.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:15.2px;font-weight: bold;&quot;&gt;Scene: &lt;font color=&quot;#ffffff&quot;&gt;Eagle&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-size:13.5px;color:#fc9432;font-weight: bold;&quot;&gt;group: enemy&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size: 16.8px; background-color: initial;&quot;&gt;&lt;font style=&quot;&quot; color=&quot;#ff3333&quot;&gt;EnemyBase&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;font-size:18.5px;color:#ffe342;font-weight: bold;&quot;&gt;scripted&lt;/span&gt;&lt;span style=&quot;font-size:20.2px;color:#ffe342;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:16.8px;color:#c3f7c8;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:16.8px;color:#c3f7c8;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" tooltip="extands from the enemybase class, this will represents the snail enemy. aswell the scene is inherited so we can change our sprites and animation" id="uzncJJ7L42PzghvQuCo0-70">
+          <mxCell style="align=left;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=#635dff;fillOpacity=100;fillColor=#635dff;strokeWidth=NaN;" vertex="1" parent="1">
+            <mxGeometry x="-24" y="-380" width="204" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
