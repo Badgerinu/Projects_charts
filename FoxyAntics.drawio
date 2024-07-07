@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T14:29:06.442Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="1Rv9TSFQejtJDwHNaGSF" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-07T14:30:48.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="0dT3qaxa594JqlC26TG5" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2179" dy="2617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="3754" dy="3452" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -666,6 +666,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;shape=link;strokeWidth=2;strokeColor=#FFD966;exitX=0.906;exitY=0.024;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-520" y="-480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-598" y="-470" />
+              <mxPoint x="-580" y="-470" />
+              <mxPoint x="-580" y="-490" />
+              <mxPoint x="-519" y="-490" />
+              <mxPoint x="-519" y="-480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <UserObject label="func on_leap_time_out()-&amp;gt;void:&lt;div&gt;_jump = true&lt;br&gt;&lt;/div&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-16">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
             <mxGeometry x="-770" y="-470" width="190" height="50" as="geometry" />
@@ -676,6 +688,11 @@
         </mxCell>
         <mxCell id="uzncJJ7L42PzghvQuCo0-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=0;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-18" target="uzncJJ7L42PzghvQuCo0-16">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;strokeWidth=2;shape=link;strokeColor=#FFD966;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-570" y="-490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="func start_timer()-&amp;gt;void:" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" tooltip="random interval 2.5 - 5 seconds between jumps" id="uzncJJ7L42PzghvQuCo0-18">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
@@ -699,6 +716,11 @@
         <mxCell id="uzncJJ7L42PzghvQuCo0-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=0;strokeColor=#9391ff;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-25" target="CjNx1Wot1mACuI0lEV2n-243">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shape=link;strokeWidth=2;strokeColor=#FFD966;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-300" y="-349.7142857142858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <UserObject label="func apply_jump()-&amp;gt;void:&lt;br&gt;&lt;font color=&quot;#004c99&quot;&gt;start_timer()&lt;br&gt;&lt;/font&gt;_jump = false&lt;font color=&quot;#004c99&quot;&gt;&lt;br&gt;&lt;/font&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" tooltip="if the frog is not on the floor, or the frog cannot see the playar or the jump timer is out, the function does not called.&#xa;&#xa;when this function is called:&#xa;velocity - our movement is equel to the variable (100, -150)&#xa;&#xa;it also change the x axis to left by defult&#xa;" id="uzncJJ7L42PzghvQuCo0-25">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
             <mxGeometry x="-540" y="-380" width="230" height="60" as="geometry" />
@@ -720,7 +742,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uzncJJ7L42PzghvQuCo0-59" value="&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 9px;&quot;&gt;after timer finished (2.5-5sec)&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="-490" width="130" height="30" as="geometry" />
+          <mxGeometry x="-840" y="-480" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uzncJJ7L42PzghvQuCo0-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.155;entryY=0.984;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;shape=link;strokeColor=#FFD966;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-22" target="CjNx1Wot1mACuI0lEV2n-242">
           <mxGeometry relative="1" as="geometry">
