@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T10:40:25.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="85OHVna_UTEGu7A2l5Xo" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-07T10:41:02.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ETxvLwIOCz8cEfa_36wH" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2529" dy="2802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="3987" dy="3576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -600,7 +600,7 @@
             <mxPoint x="-710" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="func ready()-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;&quot;&gt;_player_ref = get_tree().get_nodes_in_group(GameManager.GROUP_PLAYER)[0])&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_entered.connect(on_screen_entered_notifier)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_exited.connect(on_screen_exited_notifier)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-1">
+        <UserObject label="func ready()-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;&quot;&gt;_player_ref = get_tree().get_nodes_in_group(GameManager.GROUP_PLAYER)[0])&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_entered.connect(on_screen_entered_notifier)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_exited.connect(on_screen_exited_notifier)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-1">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
             <mxGeometry x="-1069" y="-620" width="230" height="60" as="geometry" />
           </mxCell>
