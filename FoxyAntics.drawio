@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-07T10:43:06.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="rIQfHBNlaW4nr3xm-oyt" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-07T11:17:46.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wxglD8AqP6BcXBomgdXm" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2432" dy="2751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="2759" dy="2924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -587,20 +587,20 @@
             <mxGeometry x="-124" y="-512" width="200" height="35" as="geometry" />
           </mxCell>
         </UserObject>
-        <UserObject label="func _physics_process(delta):&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;super&lt;/font&gt;&lt;font color=&quot;#007fff&quot;&gt;._physics_process(delta)&lt;br&gt;&lt;br&gt;&lt;/font&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." tooltip="call every frame, checking if the enemy is off the grid" id="CjNx1Wot1mACuI0lEV2n-245">
+        <UserObject label="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;func _physics_process(delta):&lt;/span&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;super&lt;/font&gt;&lt;font style=&quot;background-color: initial; font-size: 11px;&quot; color=&quot;#007fff&quot;&gt;._physics_process(delta)&lt;/font&gt;&lt;/div&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;move_and_slide()&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 127, 255); background-color: initial;&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;apply_jump()&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#007fff&quot;&gt;&lt;div style=&quot;text-align: justify; margin-left: 0px; line-height: 100%;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;flipme()&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;&lt;font color=&quot;#007fff&quot;&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." tooltip="call every frame, checking if the enemy is off the grid" id="CjNx1Wot1mACuI0lEV2n-245">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" parent="1" vertex="1">
-            <mxGeometry x="-123" y="-460" width="170" height="62" as="geometry" />
+            <mxGeometry x="-117" y="-380" width="203" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-246" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" parent="CjNx1Wot1mACuI0lEV2n-245" vertex="1">
-          <mxGeometry y="62" width="170" height="8.266666666666666" as="geometry" />
+          <mxGeometry y="70" width="203" height="9.333333333333332" as="geometry" />
         </mxCell>
         <mxCell id="uzncJJ7L42PzghvQuCo0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;shape=link;strokeColor=#ffe342;" edge="1" parent="1" source="uzncJJ7L42PzghvQuCo0-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-710" y="-680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="func ready()-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;&quot;&gt;_player_ref = get_tree().get_nodes_in_group(GameManager.GROUP_PLAYER)[0])&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_entered.connect(on_screen_entered_notifier)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_exited.connect(on_screen_exited_notifier)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-1">
+        <UserObject label="func ready()-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 6px;&quot;&gt;&lt;span style=&quot;&quot;&gt;_player_ref = get_tree().get_nodes_in_group(GameManager.GROUP_PLAYER)[0])&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_entered.connect(on_screen_entered_notifier)&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 140%;&quot;&gt;&lt;font color=&quot;#ff6666&quot; style=&quot;font-size: 6px;&quot;&gt;visible_on_screen_notifier_2d.screen_exited.connect(on_screen_exited_notifier)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/font&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" tooltip="get the player refrence node.&#xa;connecting the screen notifier signal to the main scene node" id="uzncJJ7L42PzghvQuCo0-1">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
             <mxGeometry x="-1069" y="-620" width="230" height="60" as="geometry" />
           </mxCell>
@@ -610,10 +610,58 @@
         </mxCell>
         <UserObject label="func ready()-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;j&lt;/font&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;ump_timer.timeout.connect(on_leap_time_out)&lt;/font&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#0066cc&quot;&gt;start_timer()&lt;/font&gt;&lt;/font&gt;" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-6">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
-            <mxGeometry x="-370" y="-459" width="230" height="60" as="geometry" />
+            <mxGeometry x="-370" y="-460" width="230" height="60" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="uzncJJ7L42PzghvQuCo0-7" value="Call at start" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-6">
+          <mxGeometry y="60" width="230" height="10" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;func on_screen_entered_notifier()-&amp;gt;void:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" tooltip="funtion on signal enter recieved:" id="uzncJJ7L42PzghvQuCo0-10">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=I0hQ4H9UoogR;" vertex="1" parent="1">
+            <mxGeometry x="-623" y="-460" width="232" height="58" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-11" value="When enter screen notifier" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-10">
+          <mxGeometry y="58.00000000000001" width="232" height="6.444444444444445" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;func on_screen_exited_notifier()-&amp;gt;void:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" tooltip="funtion on signal exit recieved:" id="uzncJJ7L42PzghvQuCo0-12">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=I0hQ4H9UoogR;" vertex="1" parent="1">
+            <mxGeometry x="-623" y="-380" width="232" height="58" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-13" value="When exit screen notifier" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-12">
+          <mxGeometry y="58.00000000000001" width="232" height="6.444444444444445" as="geometry" />
+        </mxCell>
+        <UserObject label="func on_leap_time_out()-&amp;gt;void:" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-16">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
+            <mxGeometry x="-370" y="-370" width="230" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-17" value="Leap when timer out" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-16">
+          <mxGeometry y="60" width="230" height="10" as="geometry" />
+        </mxCell>
+        <UserObject label="func start_timer()-&amp;gt;void:" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-18">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
+            <mxGeometry x="-370" y="-280" width="230" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-19" value="start jump timer" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-18">
+          <mxGeometry y="60" width="230" height="10" as="geometry" />
+        </mxCell>
+        <UserObject label="func flipme()-&amp;gt;void:" Notes="call in every frame on the physics body: update the camera node position to the player position." tooltip="the frog in defult pointing left:&#xa;if the x position of player is grater then the frog (is to the right of the frog) AND the we didnt flip the sprite of the frog yet (==false) flip it to face the player.&#xa;&#xa;if the first condition didnt met:&#xa;if the x position of player is lower then the frog (is to its left) AND we already fliped the frog (==true), flip it again to face the player.&#xa;&#xa;&#xa;if the first and the second conditions dont met , it means the frog is facing us." id="uzncJJ7L42PzghvQuCo0-22">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
+            <mxGeometry x="-570" y="-280" width="170" height="52" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-23" value="Flip Frog direction" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-22">
+          <mxGeometry y="52" width="170" height="6.933333333333333" as="geometry" />
+        </mxCell>
+        <UserObject label="func apply_jump()-&amp;gt;void:" Notes="a debugger to know the player states and properties:&#xa;is on floor, what state and what velocity in each axis" id="uzncJJ7L42PzghvQuCo0-25">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=hOeQjbdvLLHP;" vertex="1" parent="1">
+            <mxGeometry x="-114" y="-280" width="230" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="uzncJJ7L42PzghvQuCo0-26" value="Jump" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="uzncJJ7L42PzghvQuCo0-25">
           <mxGeometry y="60" width="230" height="10" as="geometry" />
         </mxCell>
       </root>
