@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T19:47:28.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="X9uZfecHB6UeFuwIKiS0" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T19:52:49.867Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="9NDdDn-Y0iMik69YFOKH" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2821" dy="2957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="3154" dy="3134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1136,6 +1136,45 @@
         </mxCell>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-76" value="&lt;div style=&quot;line-height: 120%; font-size: 10px;&quot;&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 120%; font-size: 10px;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); background-color: initial;&quot;&gt;Preload:&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 120%; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Scene:&amp;nbsp;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ffffff&quot;&gt;BulletEnemy&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 120%; font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;Scene:&amp;nbsp;&lt;font style=&quot;font-size: 10px;&quot; color=&quot;#ffffff&quot;&gt;BulletPlayer&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-weight: bold;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 15.2px; font-weight: bold;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;shape=process;fontSize=21.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#794E8A;strokeWidth=NaN;lucidId=~FgQbhemF2jc;" vertex="1" parent="1">
           <mxGeometry x="210" y="-2187" width="120" height="63.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeWidth=2;endArrow=block;endFill=0;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-82" target="_S04D1zqWIvXFKWB9VLx-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600.0000000000005" y="-2190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="531" y="-2190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="func add_child_defferd(child_to_add)-&amp;gt;void:" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-82">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
+            <mxGeometry x="355" y="-2183.5" width="235" height="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-83" value="Add bullet to scene" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-82">
+          <mxGeometry y="45" width="235.00000000000006" height="6" as="geometry" />
+        </mxCell>
+        <UserObject label="func setup_bullet(dir:Vector2,life_span:float, speed: float)-&amp;gt;void:&lt;br&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp; &amp;nbsp; call_add_child(new_bullet)&lt;/font&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-84">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
+            <mxGeometry x="902.5" y="-2258.5" width="250" height="75" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-85" value="Bullet Setup" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-84">
+          <mxGeometry y="75" width="250" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=0;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-86" target="_S04D1zqWIvXFKWB9VLx-84">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="-2240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="&lt;div&gt;func call_add_child(child_to_add)-&amp;gt;void:&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;call_deferred(&lt;font color=&quot;#3399ff&quot;&gt;&quot;add_child_defferd&quot;&lt;/font&gt;,child_to_add)&lt;/span&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-86">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
+            <mxGeometry x="602.5" y="-2207" width="290" height="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-87" value="Deferred the bullet scene" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-86">
+          <mxGeometry y="45" width="290.0000000000001" height="6" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
