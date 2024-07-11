@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T08:30:30.534Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6zyaZCWvn8Hn5aHuhxo2" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T08:41:06.011Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ko2fwR0tXlYGoTCv6hLC" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2967" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="3404" dy="3266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=block;endFill=0;strokeWidth=2;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-22" target="_S04D1zqWIvXFKWB9VLx-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-260" y="-980" />
+              <mxPoint x="854" y="-980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="CjNx1Wot1mACuI0lEV2n-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;shape=link;strokeColor=#FFE342;" parent="1" source="CjNx1Wot1mACuI0lEV2n-177" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-590.0000000000002" y="-1429.9999999999998" as="targetPoint" />
@@ -963,8 +971,9 @@
         <mxCell id="_S04D1zqWIvXFKWB9VLx-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.084;entryY=-0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-6" target="_S04D1zqWIvXFKWB9VLx-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_S04D1zqWIvXFKWB9VLx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=0;strokeColor=#ff6c69;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-34" target="_S04D1zqWIvXFKWB9VLx-37">
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;endArrow=block;endFill=0;strokeColor=#ff6c69;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-34">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="763" y="-1310" as="targetPoint" />
             <Array as="points">
               <mxPoint x="710" y="-1338" />
               <mxPoint x="763" y="-1338" />
@@ -981,7 +990,7 @@
         </mxCell>
         <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;font-size: 11.8px;&quot;&gt;func hitbox_area_entered(area:Area2D):&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" Notes="if player is not on solid surface, falling in the y direction according to the gravity variable.&#xa;&#xa;call in the move and slide base function for colliding with another body and be able to slide on him&#xa;" id="_S04D1zqWIvXFKWB9VLx-37">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=13;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=DG8O~GKL7nWF;" vertex="1" parent="1">
-            <mxGeometry x="710" y="-1323" width="212.5" height="48.5" as="geometry" />
+            <mxGeometry x="695" y="-1308.5" width="212.5" height="48.5" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-38" value="On Area entered" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-37">
