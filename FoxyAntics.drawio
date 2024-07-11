@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-11T19:38:19.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="uqeE5jvSYWJ7TenPscxJ" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-11T19:39:11.981Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="MUwsmN2U-emK_OVt_h1u" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2821" dy="2957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="2967" dy="3034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1016,17 +1016,16 @@
         <mxCell id="_S04D1zqWIvXFKWB9VLx-43" value="&lt;div style=&quot;display: flex; justify-content: flex-start; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:15.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:15.2px;font-weight: bold;&quot;&gt;Scene: &lt;font color=&quot;#ffffff&quot;&gt;BulletBase&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;&lt;font color=&quot;#e81313&quot;&gt;Area2D&lt;/font&gt;: &lt;/span&gt;&lt;span style=&quot;font-size:18.5px;color:#ffe342;font-weight: bold;&quot;&gt;scripted&lt;/span&gt;&lt;span style=&quot;font-size:20.2px;color:#ffe342;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; align-items: baseline; font-size: 0px; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:16.8px;color:#c3f7c8;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:16.8px;color:#c3f7c8;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="align=left;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#635dff;strokeWidth=NaN;" vertex="1" parent="1">
           <mxGeometry x="-845" y="-2070.5" width="285" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_S04D1zqWIvXFKWB9VLx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shape=link;strokeWidth=2;strokeColor=#FFD966;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-44" target="_S04D1zqWIvXFKWB9VLx-43">
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;shape=link;strokeWidth=2;strokeColor=#FFD966;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-44" target="_S04D1zqWIvXFKWB9VLx-43">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-900" y="-1945" />
-              <mxPoint x="-900" y="-2010" />
+              <mxPoint x="-910" y="-2011" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div&gt;func _process(delta):&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&lt;font color=&quot;#0066cc&quot;&gt;check_expired(delta)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;position += _direction * delta&lt;/span&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-44">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
-            <mxGeometry x="-1101.6299999999999" y="-1945" width="210" height="75" as="geometry" />
+            <mxGeometry x="-1112.2499999999998" y="-1980" width="210" height="75" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-45" value="Call each frame" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-44">
@@ -1053,7 +1052,7 @@
         </mxCell>
         <UserObject label="func check_expired(delta)-&amp;gt;void:&lt;div&gt;&amp;nbsp; &amp;nbsp; &lt;font color=&quot;#0066cc&quot;&gt;queue_free()&lt;/font&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-48">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
-            <mxGeometry x="-1101.62" y="-2048" width="179" height="75" as="geometry" />
+            <mxGeometry x="-1112.25" y="-2082.5" width="179" height="75" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-49" value="Bullet expiration" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-48">
