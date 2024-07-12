@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T08:42:06.633Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="R5DcfOnwuT7YjmIsU9Ki" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T08:50:08.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gW-WxJrBvVcehNWRfC3x" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="3154" dy="3134" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="2382" dy="2730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,6 +171,16 @@
               <mxPoint x="260" y="-1030" />
               <mxPoint x="300" y="-1030" />
               <mxPoint x="300" y="-1033" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=0;strokeColor=#ff80df;" edge="1" parent="1" source="CjNx1Wot1mACuI0lEV2n-44" target="_S04D1zqWIvXFKWB9VLx-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="-1985" />
+              <mxPoint x="200" y="-2030" />
+              <mxPoint x="790" y="-2030" />
+              <mxPoint x="790" y="-1985" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1168,13 +1178,13 @@
         <mxCell id="_S04D1zqWIvXFKWB9VLx-83" value="Add bullet to scene" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-82">
           <mxGeometry y="45" width="235.00000000000006" height="6" as="geometry" />
         </mxCell>
-        <UserObject label="func setup_bullet(dir:Vector2,life_span:float, speed: float)-&amp;gt;void:&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3399ff&quot;&gt;setup_bullet()&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp; &amp;nbsp; call_add_child(new_bullet)&lt;/font&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-84">
+        <UserObject label="func &lt;font style=&quot;font-size: 10px;&quot;&gt;Create_bullet(speed:float,direction:Vector2,start_pos:Vector2,life_span:float,key:BULLET_KEY)-&amp;gt;void:&lt;/font&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font color=&quot;#3399ff&quot;&gt;setup_bullet()&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#3399ff&quot;&gt;&amp;nbsp; &amp;nbsp; call_add_child(new_bullet)&lt;/font&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-84">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
-            <mxGeometry x="827" y="-2258.5" width="250" height="75" as="geometry" />
+            <mxGeometry x="827" y="-2258.5" width="483" height="48.5" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="_S04D1zqWIvXFKWB9VLx-85" value="Bullet Setup" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-84">
-          <mxGeometry y="75" width="250" height="10" as="geometry" />
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-85" value="Create a bullet" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-84">
+          <mxGeometry y="48.49999999999999" width="483" height="6.466666666666666" as="geometry" />
         </mxCell>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;endArrow=block;endFill=0;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-86" target="_S04D1zqWIvXFKWB9VLx-84">
           <mxGeometry relative="1" as="geometry">
@@ -1198,27 +1208,46 @@
         </mxCell>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-97" target="_S04D1zqWIvXFKWB9VLx-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="900" y="-1940" as="targetPoint" />
+            <mxPoint x="900" y="-1815" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="843" y="-1960" />
-              <mxPoint x="890" y="-1960" />
-              <mxPoint x="890" y="-1932" />
+              <mxPoint x="843" y="-1835" />
+              <mxPoint x="890" y="-1835" />
+              <mxPoint x="890" y="-1807" />
             </Array>
           </mxGeometry>
         </mxCell>
         <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;Scene: &lt;font color=&quot;#ffffff&quot;&gt;Shooter&lt;/font&gt;&lt;/span&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;&lt;font color=&quot;#e81313&quot;&gt;Node2d&lt;/font&gt;: &lt;/span&gt;&lt;span style=&quot;font-size:20.2px;color:#ffe342;font-weight: bold;&quot;&gt;scripted&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:20.2px;font-weight: bold;&quot;&gt;&lt;span style=&quot;font-size:20.2px;color:#c3f7c8;font-weight: bold;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/div&gt;" tooltip="Shooting component to player and eagle" id="_S04D1zqWIvXFKWB9VLx-97">
           <mxCell style="align=center;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#635dff;strokeWidth=NaN;" vertex="1" parent="1">
-            <mxGeometry x="630" y="-2030" width="213.25" height="70" as="geometry" />
+            <mxGeometry x="630" y="-1905" width="213.25" height="70" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-98" value="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;Node:&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size:16.8px;color:#ffffff;&quot;&gt;Sound&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;:&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#e81313&quot;&gt;&lt;span style=&quot;font-size: 16.8px;&quot;&gt;AudioStreamPlayer2D&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16.8px;&quot;&gt;:&lt;br&gt;&lt;br&gt;   &lt;/span&gt;&lt;/div&gt;" style="align=center;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=none;fillOpacity=100;fillColor=#9391ff;strokeWidth=NaN;" vertex="1" parent="1">
-          <mxGeometry x="907.5" y="-2007.5" width="210" height="43" as="geometry" />
+          <mxGeometry x="907.5" y="-1882.5" width="210" height="43" as="geometry" />
         </mxCell>
         <UserObject label="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; line-height: 1.25; margin-top: -2px; font-size: 14px;&quot;&gt;&lt;span style=&quot;font-weight: bold;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Node:&lt;/font&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#ffffff&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ShootTimer&lt;/font&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;:&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#e81313&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Timer&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/span&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;:&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;   &lt;/div&gt;" Notes="player sprite" tooltip="to detect other bodies or on floor" id="_S04D1zqWIvXFKWB9VLx-99">
           <mxCell style="align=center;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=#unset;fillOpacity=100;fillColor=#9391ff;strokeWidth=NaN;" vertex="1" parent="1">
-            <mxGeometry x="907.5" y="-1950" width="200" height="35" as="geometry" />
+            <mxGeometry x="907.5" y="-1825" width="200" height="35" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;shape=link;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-106" target="_S04D1zqWIvXFKWB9VLx-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="func shoot(direction:Vector2)-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font color=&quot;#ff66ff&quot; style=&quot;font-size: 11px;&quot;&gt;SoundManger.play_clip(sound,SoundManger.SOUND_LASER)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font color=&quot;#794e8a&quot; style=&quot;font-size: 11px;&quot;&gt;ObjectMaker.Create_bullet(speed,direction,global_position,life_span,bullet_key)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-106">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#794e8a;fillOpacity=100;fillColor=#ffe342;strokeWidth=NaN;lucidId=NR6OM82iCQtp;" vertex="1" parent="1">
+            <mxGeometry x="811" y="-2003" width="393" height="70" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-107" value="Shoot bullet" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=15.2;align=left;fontStyle=3;verticalAlign=middle;horizontal=1;fontFamily=Verdana;" vertex="1" parent="_S04D1zqWIvXFKWB9VLx-106">
+          <mxGeometry y="70" width="393.0000000000001" height="9.333333333333334" as="geometry" />
+        </mxCell>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;strokeWidth=2;strokeColor=#794e8a;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-85" target="_S04D1zqWIvXFKWB9VLx-106">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1069" y="-2103" />
+              <mxPoint x="1007" y="-2103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
