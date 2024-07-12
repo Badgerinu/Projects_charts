@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T08:50:08.191Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="gW-WxJrBvVcehNWRfC3x" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T08:51:33.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wPOou2d09ihKYJCtjoZT" version="24.6.4" type="github">
   <diagram name="‫עמוד-1‬" id="evQUI1vt7EIw48ChurK0">
-    <mxGraphModel dx="2382" dy="2730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
+    <mxGraphModel dx="3309" dy="3229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F5F4F4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1221,6 +1221,16 @@
             <mxGeometry x="630" y="-1905" width="213.25" height="70" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#ff80df;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-98" target="_S04D1zqWIvXFKWB9VLx-106">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1230" y="-1970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1117" y="-1880" />
+              <mxPoint x="1230" y="-1880" />
+              <mxPoint x="1230" y="-1968" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_S04D1zqWIvXFKWB9VLx-98" value="&lt;div style=&quot;display: flex; justify-content: flex-start; text-align: left; align-items: baseline; font-size: 0; line-height: 1.25;margin-top: -2px;&quot;&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;font-weight: bold;&quot;&gt;Node:&lt;/span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-size:16.8px;color:#ffffff;&quot;&gt;Sound&lt;/span&gt;&lt;/span&gt;&lt;span&gt;&lt;span style=&quot;font-size:16.8px;&quot;&gt;:&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;display: flex; justify-content: center; text-align: center; align-items: baseline; line-height: 1.25; margin-top: -2px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#e81313&quot;&gt;&lt;span style=&quot;font-size: 16.8px;&quot;&gt;AudioStreamPlayer2D&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 16.8px;&quot;&gt;:&lt;br&gt;&lt;br&gt;   &lt;/span&gt;&lt;/div&gt;" style="align=center;whiteSpace=wrap;overflow=block;blockSpacing=1;html=1;fontSize=13;spacing=0;verticalAlign=top;strokeColor=none;fillOpacity=100;fillColor=#9391ff;strokeWidth=NaN;" vertex="1" parent="1">
           <mxGeometry x="907.5" y="-1882.5" width="210" height="43" as="geometry" />
         </mxCell>
@@ -1229,7 +1239,7 @@
             <mxGeometry x="907.5" y="-1825" width="200" height="35" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="_S04D1zqWIvXFKWB9VLx-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;shape=link;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-106" target="_S04D1zqWIvXFKWB9VLx-97">
+        <mxCell id="_S04D1zqWIvXFKWB9VLx-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;shape=link;strokeColor=#FFD966;" edge="1" parent="1" source="_S04D1zqWIvXFKWB9VLx-106" target="_S04D1zqWIvXFKWB9VLx-97">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="func shoot(direction:Vector2)-&amp;gt;void:&lt;br&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font color=&quot;#ff66ff&quot; style=&quot;font-size: 11px;&quot;&gt;SoundManger.play_clip(sound,SoundManger.SOUND_LASER)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font color=&quot;#794e8a&quot; style=&quot;font-size: 11px;&quot;&gt;ObjectMaker.Create_bullet(speed,direction,global_position,life_span,bullet_key)&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" Notes="call in every frame on the physics body: update the camera node position to the player position." id="_S04D1zqWIvXFKWB9VLx-106">
