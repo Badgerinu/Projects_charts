@@ -97,6 +97,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-41" value="&lt;font color=&quot;#cc0000&quot;&gt;const &lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;TILE_SIZE&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;: &lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;int &lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;= 16&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="345" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-42" value="&lt;font color=&quot;#cc0000&quot;&gt;var &lt;/font&gt;&lt;font color=&quot;#080000&quot;&gt;grid&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;: &lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;AStarGrid2D&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="370" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-43" value="&lt;font color=&quot;#cc0000&quot;&gt;var &lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;unit_lookup&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;: &lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Callable&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="940" y="393.5" width="210" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
