@@ -151,7 +151,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-59" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D9B4B2;strokeColor=#b85450;fillStyle=auto;shadow=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="-340" y="10" width="770" height="400" as="geometry" />
+          <mxGeometry x="-340" y="10" width="770" height="440" as="geometry" />
         </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-60" value="&lt;span style=&quot;color: rgb(255, 128, 0);&quot;&gt;UnitsContainer&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#cc0000&quot;&gt;Class&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="200" y="20" width="210" height="30" as="geometry" />
@@ -247,6 +247,20 @@
               <mxPoint x="194" y="30" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-85" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="140" y="250" width="283.02" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-86" value="_begin_turn() -&amp;gt; void:" style="shape=delay;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-85">
+          <mxGeometry x="11.433461538461538" width="133.95115384615386" height="24.94" as="geometry" />
+        </mxCell>
+        <UserObject label="" Notes="#function for playing each sound, the arguments are the player node to play the sound, and the keyword from dic&#xa;#if we have the keyword in the sounds dictonary we continue if not return&#xa; #load the sound file to the player we choose&#xa;#play the sound" id="lPmOptHhdy0TYfp4bBg2-87">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#d6b656;fillOpacity=100;fillColor=#fff2cc;strokeWidth=NaN;lucidId=MKeQQ6PfqjTb;aspect=fixed;verticalLabelPosition=bottom;shape=mxgraph.basic.plaque;dx=6;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-85">
+            <mxGeometry y="24.94" width="280" height="162.47" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-88" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;current_unit = current_group.get_child(current_unit_index) #&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;has_attacked = &lt;/font&gt;&lt;font color=&quot;#ff1e05&quot; style=&quot;font-size: 9px;&quot;&gt;false&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;has_moved = &lt;/font&gt;&lt;font color=&quot;#ff0000&quot; style=&quot;font-size: 9px;&quot;&gt;false&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;_update_paths()&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 7px;&quot;&gt;&#39;&#39;&#39; begin turn - only run in this script (hence the _). assign the current unit var (which is type Unit node- a costume class node) to the element in the first place in the current_group array. defults the variables has_attacked and has_moved to false, as the unit need to be able to preform these lastly it starts the function _update_paths() VVV importent note the updated path here is to intilize the first turn which jumping to the first unit and showing is path. &#39;&#39;&#39;&lt;/span&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font style=&quot;font-size: 9px;&quot; color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;fontColor=#FF8000;html=1;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-87">
+          <mxGeometry x="4.043200000000001" y="8.76975113746036" width="275.9568" height="148.03295119260991" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
