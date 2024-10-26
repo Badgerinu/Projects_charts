@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1">
   <diagram name="‫עמוד-1‬" id="4UTmtsU5IGrYidXw7zGl">
-    <mxGraphModel dx="3375" dy="980" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,10 +30,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-2" value="tiles&lt;div&gt;&lt;font color=&quot;#ff8000&quot;&gt;TileMap&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="600" y="230" width="100" height="50" as="geometry" />
+          <mxGeometry x="600" y="250" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-3" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;cell_highlights&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff8000&quot;&gt;node2D&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="600" y="170" width="100" height="50" as="geometry" />
+          <mxGeometry x="600" y="190" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;endArrow=none;endFill=0;" edge="1" parent="1" source="lPmOptHhdy0TYfp4bBg2-4" target="lPmOptHhdy0TYfp4bBg2-22">
           <mxGeometry relative="1" as="geometry">
@@ -52,11 +52,8 @@
         <mxCell id="lPmOptHhdy0TYfp4bBg2-4" value="units&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff8000&quot;&gt;UnitsContainer&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="480" y="40" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lPmOptHhdy0TYfp4bBg2-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Cemera&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff8000&quot;&gt;Camera2D&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="600" y="110" width="100" height="50" as="geometry" />
-        </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-15" value="Navigation&lt;div&gt;&lt;font color=&quot;#ff8000&quot;&gt;node&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ff570f&quot;&gt;singelton&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="600" y="290" width="100" height="50" as="geometry" />
+          <mxGeometry x="600" y="310" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Battle&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#cc0000&quot;&gt;script&lt;/font&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="760" y="10" width="210" height="30" as="geometry" />
@@ -162,6 +159,15 @@
         <mxCell id="lPmOptHhdy0TYfp4bBg2-63" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-340" y="10" width="210" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.017;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lPmOptHhdy0TYfp4bBg2-29" target="lPmOptHhdy0TYfp4bBg2-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="754" y="180" />
+              <mxPoint x="580" y="180" />
+              <mxPoint x="580" y="114" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-64" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;current_group&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Node&lt;/font&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-340" y="30" width="210" height="20" as="geometry" />
         </mxCell>
@@ -196,6 +202,51 @@
         </UserObject>
         <mxCell id="lPmOptHhdy0TYfp4bBg2-74" value="&lt;div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;font color=&quot;#ff66ff&quot;&gt;for &lt;/font&gt;&lt;font color=&quot;#030100&quot;&gt;child &lt;/font&gt;&lt;font color=&quot;#ff66ff&quot;&gt;in &lt;/font&gt;&lt;font color=&quot;#030100&quot;&gt;get_children():&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;color: rgb(3, 1, 0); white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;font color=&quot;#ff66ff&quot;&gt;if &lt;/font&gt;&lt;font color=&quot;#030100&quot;&gt;child.get_child_count() &amp;gt; 0:&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#030100&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;groups.append(child)&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#030100&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 6px;&quot;&gt;&lt;font style=&quot;font-size: 6px;&quot; color=&quot;#030100&quot;&gt;&lt;div style=&quot;&quot;&gt;first iterates inside the unit container and looking for groups (player,opponent,nonplayer),&lt;/div&gt;&lt;div style=&quot;&quot;&gt;then if each of the childs (player,opponent,nonplayer) have child of their own (units), then-&lt;/div&gt;&lt;div style=&quot;&quot;&gt;add the group (player,opponent,nonplayer) to our groups empty Array.&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;fontColor=#FF8000;html=1;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-73">
           <mxGeometry x="3.60938223938224" y="7.833127413127413" width="211.99787644787645" height="137.22478764478765" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-75" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="190" y="70" width="260" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-76" value="start_battle() -&amp;gt; void:" style="shape=delay;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-75">
+          <mxGeometry x="11.01" width="148.99" height="24.94" as="geometry" />
+        </mxCell>
+        <UserObject label="" Notes="#function for playing each sound, the arguments are the player node to play the sound, and the keyword from dic&#xa;#if we have the keyword in the sounds dictonary we continue if not return&#xa; #load the sound file to the player we choose&#xa;#play the sound" id="lPmOptHhdy0TYfp4bBg2-77">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;fontSize=11.8;align=left;spacing=0;verticalAlign=top;strokeColor=#d6b656;fillOpacity=100;fillColor=#fff2cc;strokeWidth=NaN;lucidId=MKeQQ6PfqjTb;aspect=fixed;verticalLabelPosition=bottom;shape=mxgraph.basic.plaque;dx=6;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-75">
+            <mxGeometry y="24.942084942084946" width="221.85328185328189" height="145.05791505791507" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-78" value="&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;current_group = groups[0]&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;_begin_turn()&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 9px;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 9px;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;# it refers the groups array, which we now define the current_group which is a node type&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;#in our case its an array of unit class.&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="strokeColor=none;fillColor=none;whiteSpace=wrap;fontSize=10;align=left;horizontal=1;verticalAlign=top;fontColor=#FF8000;html=1;" vertex="1" parent="lPmOptHhdy0TYfp4bBg2-77">
+          <mxGeometry x="3.60938223938224" y="7.833127413127413" width="211.99787644787645" height="137.22478764478765" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-5" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Cemera&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot; color=&quot;#ff8000&quot;&gt;Camera2D&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="600" y="110" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.003;entryY=0.369;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lPmOptHhdy0TYfp4bBg2-63" target="lPmOptHhdy0TYfp4bBg2-73">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-308" y="30" />
+              <mxPoint x="-360" y="30" />
+              <mxPoint x="-360" y="188" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.004;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="lPmOptHhdy0TYfp4bBg2-74" target="lPmOptHhdy0TYfp4bBg2-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-124" y="130" />
+              <mxPoint x="194" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="lPmOptHhdy0TYfp4bBg2-65" target="lPmOptHhdy0TYfp4bBg2-78">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="50" />
+              <mxPoint x="-180" y="40" />
+              <mxPoint x="-170" y="40" />
+              <mxPoint x="-170" y="30" />
+              <mxPoint x="194" y="30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
