@@ -434,6 +434,30 @@
         <mxCell id="lPmOptHhdy0TYfp4bBg2-139" value="signal attack_complete" style="html=1;shadow=0;dashed=0;align=left;verticalAlign=middle;shape=mxgraph.arrows2.calloutArrow;dy=8.46;dx=54.76;notch=188.56;arrowHead=7.02;fillColor=#ff0d00;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-860" y="92.5" width="250" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-140" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-581" y="107.5" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-141" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="130" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-142" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-587" y="150" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-143" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="206.5" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-144" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-591" y="230" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-145" value="&lt;font color=&quot;#cc0000&quot;&gt;var&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#030000&quot;&gt;groups&lt;/font&gt;&lt;font color=&quot;#cc0000&quot;&gt;:&amp;nbsp;&lt;/font&gt;&lt;font color=&quot;#004c99&quot;&gt;Array &lt;/font&gt;= [ ]" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;fillColor=#f8cecc;strokeColor=#b85450;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-601" y="250" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-146" value="&lt;font color=&quot;#cc0000&quot;&gt;@export&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=50;size=0;fillColor=#D9BD5F;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="82.5" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="lPmOptHhdy0TYfp4bBg2-147" value="&lt;font color=&quot;#cc0000&quot;&gt;@onready&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=50;size=0;fillColor=#D9BD5F;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="-587" y="185" width="210" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
