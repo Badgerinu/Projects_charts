@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
   <diagram name="‫עמוד-1‬" id="4UTmtsU5IGrYidXw7zGl">
-    <mxGraphModel dx="2240" dy="1403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2686" dy="1644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -462,7 +462,7 @@
         <mxCell id="lPmOptHhdy0TYfp4bBg2-147" value="&lt;font color=&quot;#cc0000&quot;&gt;@onready&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=50;size=0;fillColor=#D9BD5F;strokeColor=#d79b00;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
           <mxGeometry x="-587" y="185" width="210" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9x6yO77n2d7459XCzhv3-4" value="HealthBar&lt;div&gt;&lt;font color=&quot;#ff8000&quot;&gt;node2d&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="9x6yO77n2d7459XCzhv3-4" value="HealthBar&lt;div&gt;&lt;font color=&quot;#ff8000&quot;&gt;node2d&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-1020" y="15" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
